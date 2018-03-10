@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cats/cats.iml" filepath="$PROJECT_DIR$/cats/cats.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dogs/dogs.iml" filepath="$PROJECT_DIR$/dogs/dogs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instantapp/instantapp.iml" filepath="$PROJECT_DIR$/instantapp/instantapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/single-activity-instant-app-example.iml" filepath="$PROJECT_DIR$/single-activity-instant-app-example.iml" />
+    </modules>
+  </component>
+</project>

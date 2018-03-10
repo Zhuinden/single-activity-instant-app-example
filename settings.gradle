@@ -1,0 +1,1 @@
+include ':cats', ':dogs', ':app', ':base', ':instantapp'

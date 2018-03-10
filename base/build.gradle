@@ -1,0 +1,40 @@
+apply plugin: 'com.android.feature'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 26
+    baseFeature true
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+androidExtensions {
+    experimental = true
+}
+
+dependencies {
+    api 'com.android.support:appcompat-v7:26.1.0'
+    api 'com.android.support.constraint:constraint-layout:1.0.2'
+    api "org.jetbrains.anko:anko-commons:0.10.4"
+    api "org.jetbrains.anko:anko-sdk25-listeners:0.10.4"
+    application project(':app')
+    feature project(':cats')
+    feature project(':dogs')
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    api 'com.github.Zhuinden:simple-stack:1.9.0'
+}
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}

@@ -1,0 +1,10 @@
+apply plugin: 'com.android.instantapp'
+
+dependencies {
+    implementation project(':cats')
+    implementation project(':dogs')
+    implementation project(':base')
+}
+repositories {
+    mavenCentral()
+}
