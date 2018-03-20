@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.zhuinden.singleactivityinstantappexample.base.BaseFragment
 import com.zhuinden.singleactivityinstantappexample.base.MainActivity
 import kotlinx.android.synthetic.main.fragment_dog.*
-import org.jetbrains.anko.sdk25.listeners.onClick
+import org.jetbrains.anko.sdk15.listeners.onClick
 
 /**
  * Created by Zhuinden on 2018.03.10..
